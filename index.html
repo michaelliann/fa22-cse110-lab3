@@ -4,12 +4,13 @@
     <title>Meeting Minutes</title>
     <meta name="author" content="Michael Lian" />
     <link rel="icon" type="image/x-icon" href="example.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <header>
-        <h1>Brainstorm Meeting Minutes</h1>
-        <h2>Project Brainstorm</h2>
+        <h1 title="bold">Brainstorm Meeting Minutes</h1>
+        <h2 class="title_2">Project Brainstorm</h2>
         <h2>10/9/2022</h2>
       </header>
       <hr />
@@ -67,7 +68,7 @@
 This is the form area since I need to use every single tag included in the lab. This is where I will be using all the form related tags for a fun little quiz because I have to. This is a textarea!</textarea
         >
         <br />
-        <form>
+        <form class="names">
           <label for="first_name">First name:</label><br />
           <input type="text" id="first_name" name="fname" /><br />
 
@@ -86,7 +87,7 @@ This is the form area since I need to use every single tag included in the lab. 
           <label>Yes</label><br />
         </form>
         <br />
-        <form>
+        <form class="classes">
           <fieldset>
             <legend>Choose your favorite class</legend>
 
@@ -123,7 +124,7 @@ This is the form area since I need to use every single tag included in the lab. 
         </select>
         <br />
         <br />
-        <button>Submit form</button>
+        <button id="submit_button">Submit form</button>
       </div>
     </main>
     <hr />
