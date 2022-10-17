@@ -1,0 +1,112 @@
+/* website background color */
+body {
+  background: #c7ddcc;
+}
+
+/* styles for the header */
+header {
+  background: hsla(245, 56%, 16%, 1);
+  padding-top: 0.1in;
+  padding-bottom: 15px;
+  padding-left: 1rlh;
+  padding-right: 0.225cm;
+  border-style: dashed;
+  border-color: aqua;
+  border-width: 1rem;
+  border-radius: 1lh;
+  position: sticky;
+  top: 0mm;
+  color: rgb(202, 199, 199);
+  height: 200px;
+  width: 1000px;
+  max-width: 10000px;
+  min-width: 200px;
+}
+
+/* font load */
+@font-face {
+  font-family: "Roboto";
+  src: url("/Roboto/Roboto-Regular.ttf");
+}
+
+/* all text use roboto */
+* {
+  font-family: "Roboto";
+}
+
+/* font for h2.title_2 */
+h2.title_2 {
+  font-family: "Roboto";
+}
+
+section {
+  background-color: #c7ddcc;
+}
+
+strong,
+label {
+  color: blue;
+  text-decoration: dotted;
+  text-align: center;
+}
+
+#submit_button {
+  display: block;
+}
+
+div > h3 {
+  font-weight: bold;
+  display: none;
+}
+
+section h3 {
+  padding: 5px 5px 5px 5px;
+  position: static;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  display: inline-block;
+}
+
+h3 ~ p {
+  margin: auto;
+  display: inline;
+}
+
+h3 + video {
+  border-radius: 30px;
+  margin: 1px 1px 1px 1px;
+}
+
+h1[title="bold"] {
+  font-weight: bold;
+}
+
+button:hover {
+  color: purple;
+}
+
+button:active {
+  color: gray;
+}
+
+form.names {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+
+form.classes {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template: auto;
+}
+
+@media screen and (width: 500px) {
+  button:active {
+    color: blue;
+  }
+}
